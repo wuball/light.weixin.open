@@ -1,0 +1,23 @@
+@import "../../profile/profile_items.wxss";
+
+.weui-cells {
+  background-color: transparent;
+}
+
+.weui-cell {
+  background-color: #fff;
+  /* margin-top: 20rpx; */
+}
+
+textarea {
+  width: 100%;
+  min-height: 320rpx;
+  display: block;
+  position: relative;
+  padding: 25rpx 0;
+}
+
+.textarea-wrp {
+  background-color: #fff;
+  width: 100%;
+}

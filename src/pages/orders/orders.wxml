@@ -1,0 +1,220 @@
+<view class='container_mid border-master'>
+  <view class="menu-wrapper">
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="" class="menu-item">
+      <view class='menu-item-content'>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <text>2018-3-30 22:47</text>
+          </view>
+          <view class='menu-item-line-right'>
+            <text>已完成</text>
+          </view>
+        </view>
+        <view class='menu-item-line'>
+          <view class='menu-item-line-left'>
+            <view class="menu-item-text">
+              <text>维修</text>
+            </view>
+          </view>
+          <view class='menu-item-line-right'>
+            <view class="menu-item-text-small">
+              <text>￥50</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

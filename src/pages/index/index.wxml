@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='container_top border-master'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='swiper-container'>
+      <block wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+        <swiper-item>
+          <navigator url="{{item.goodsurl}}">
+            <image src="{{item.icon}}" class="slide-image" />
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='container_mid border-master'>
+    <view class="menu-wrapper">
+      <block wx:for="{{moduleOption}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+        <navigator url="" class="menu-item" style='background-color:{{item.color}}'>
+          <view class="operate">
+            <image class="operate-img" src="{{hostApi}}{{item.icon}}"></image>
+            <view class="operate-text">
+              <text>{{item.title}}</text>
+            </view>
+          </view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+
+</view>

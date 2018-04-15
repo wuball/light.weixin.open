@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-section">
+    <form bindsubmit='onFormSubmit'>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type='number' name="phoneNumber" maxlength="11" focus="true" value='{{phoneNumber}}' confirm-type="done" />
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">提交</button>
+      </view>
+    </form>
+  </view>
+</view>

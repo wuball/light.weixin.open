@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-section">
+    <form bindsubmit='onFormSubmit'>
+      <view class="weui-cells weui-cells_after-title">
+        <picker mode="date" value="{{birthday}}" start="{{date_start}}" end="{{date_end}}" bindchange="bindDateChange" name="birthday">
+          <view class="weui-cell weui-cell_input">
+            <text class='weui-input'>{{birthday}}</text>
+          </view>
+        </picker>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">提交</button>
+      </view>
+    </form>
+  </view>
+</view>

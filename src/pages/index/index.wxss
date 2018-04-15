@@ -1,0 +1,52 @@
+page {
+  height: 100%;
+}
+
+.container_top {
+  /* height: 250px; */
+}
+
+.container_mid {
+  border-top: none;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.swiper-container {
+  height: 380rpx;
+}
+
+.menu-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 32.4%;
+  height: 230rpx;
+  text-align: center;
+  background-color: yellow;
+  margin-bottom: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.operate image {
+  width: 86rpx;
+  height: 86rpx;
+}
+
+.operate-text {
+  font-size: 28rpx;
+  /* margin: 6rpx; */
+}

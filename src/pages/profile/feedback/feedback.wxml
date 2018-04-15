@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="page-section">
+    <form bindsubmit='onFormSubmit'>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cells__title">标题/关键字</view>
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" type='text' maxlength="30" name="title" focus="true" value='' confirm-type="done" />
+        </view>
+        <view class="weui-cells__title">详细描述</view>
+        <view class="weui-cell weui-cell_input">
+          <view class="textarea-wrp">
+            <textarea bindblur="bindTextAreaBlur" name="content" maxlength="280" />
+          </view>
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">提交</button>
+      </view>
+    </form>
+  </view>
+</view>

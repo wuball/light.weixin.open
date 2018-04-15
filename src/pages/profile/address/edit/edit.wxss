@@ -1,0 +1,10 @@
+@import "../../../profile/profile_items.wxss";
+
+.weui-cells {
+  background-color: transparent;
+}
+
+.weui-cell {
+  background-color: #fff;
+  margin-top: 20rpx;
+}

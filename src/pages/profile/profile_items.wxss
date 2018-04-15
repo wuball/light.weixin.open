@@ -1,0 +1,89 @@
+page {
+  background-color: #f8f8f8;
+}
+
+.page-section {
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.weui-cells__title {
+  margin-top: 0.77em;
+  margin-bottom: 0.3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #999;
+  font-size: 14px;
+}
+
+.weui-cells {
+  position: relative;
+  margin-top: 1.17647059em;
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+/* .weui-cells_after-title {
+  margin-top: 0;
+} */
+
+.weui-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.weui-cells__title {
+  margin-top: 0.77rem;
+  margin-bottom: 0.3rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #999;
+  font-size: 10pt;
+}
+
+.weui-cell_input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-area {
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+}
+
+button {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.weui-label {
+  width: 5em;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #353535;
+  font-size: 13pt;
+}
+
+.weui-cell__bd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.weui-input {
+  width: 100%;
+  height: 2.58823529em;
+  min-height: 2.58823529em;
+  line-height: 2.58823529em;
+  color: #888;
+  font-size: 12pt;
+}

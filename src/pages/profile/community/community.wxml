@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-section">
+    <view class="weui-cells weui-cells_after-title">
+      <picker range-key="{{'title'}}" value='{{index}}' bindchange="bindPickerChange" range="{{array}}">
+        <view class="weui-cell weui-cell_input">
+          <text class='weui-input'>{{array[index].title|| defaultTitle}}</text>
+        </view>
+      </picker>
+    </view>
+    <view class="btn-area">
+      <button type="primary" formType="submit" bindtap='onSubmitBtn'>提交</button>
+    </view>
+  </view>
+</view>

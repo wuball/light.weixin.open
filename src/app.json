@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/profile/birthday/birthday",
+    "pages/profile/phonenumber/phonenumber",
+    "pages/profile/address/address",
+    "pages/profile/address/edit/edit",
+    "pages/profile/community/community",
+    "pages/profile/vip/vip",
+    "pages/profile/about/about",
+    "pages/profile/feedback/feedback",
+    "pages/news/news",
+    "pages/orders/orders"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "LightWeixinOpen",
+    "backgroundColorTop": "#fff",
+    "backgroundColorBottom": "#fff",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#09f",
+    "list": [
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_fill.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/news_light.png",
+        "selectedIconPath": "images/news_fill_light.png",
+        "pagePath": "pages/orders/orders",
+        "text": "订单"
+      },
+      {
+        "iconPath": "images/people.png",
+        "selectedIconPath": "images/people_fill.png",
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  }
+}

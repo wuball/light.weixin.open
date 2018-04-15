@@ -1,0 +1,9 @@
+page {
+  font-size: 11pt;
+}
+
+.border-master {
+  border-color: white;
+  border-width: 10rpx;
+  border-style: solid;
+}

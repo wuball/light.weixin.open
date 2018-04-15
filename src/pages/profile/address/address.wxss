@@ -1,0 +1,24 @@
+@import "../../profile/profile_items.wxss";
+
+.cells_nobg {
+  background: transparent;
+}
+
+.cell_block {
+  display: block;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.cell_title {
+  padding: 24rpx 0 0 0;
+  width: 100%;
+  font-size: 12pt;
+}
+
+.cell_content {
+  padding: 0 0 24rpx 0;
+  width: 100%;
+  font-size: 11pt;
+  color: #888;
+}

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='container_mid border-master'>
+    <view class="menu-wrapper">
+      <block wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+        <view bindtap="onbindtap" bindlongpress='onbindlongpress' data-id='{{item.id}}' class="menu-item">
+          <view class='menu-item-left'>
+            <view class="menu-item-text">
+              <text>{{item.title}}</text>
+            </view>
+          </view>
+          <view class='menu-item-right'>
+            <view class="menu-item-text-small">
+              <text>{{item.content}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+</view>

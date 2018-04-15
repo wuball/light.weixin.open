@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="page-section">
+    <form bindsubmit='onFormSubmit'>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">联系人</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" maxlength='16' name="nickname" value="{{nickname}}"></input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">手机号码</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="number" maxlength='11' name="phoneNumber" value="{{phoneNumber}}"></input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">门牌号</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" maxlength='68' name="houseNumber" value="{{houseNumber}}"></input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">设为默认</view>
+          </view>
+          <view class="weui-cell__bd" style='text-align:right; '>
+            <switch class="weui-input" checked="{{isDefault}}" name="isDefault" />
+          </view>
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">完成</button>
+        <!-- <button type="default">设为默认</button> -->
+        <button type="warn">删除</button>
+      </view>
+    </form>
+  </view>
+</view>

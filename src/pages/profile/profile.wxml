@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='container_top border-master'>
+    <view class='header'>
+      <view>
+        <image src="{{userInfo.avatarUrl}}" class="header-image" />
+        <view class="header-nickname">
+          <text>{{userInfo.nickname}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='container_mid border-master'>
+    <view class="menu-wrapper">
+      <block wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+        <navigator url="{{item.action}}" class="menu-item">
+          <view class='menu-item-left'>
+            <image class="menu-item-img-left" src="{{item.icon}}"></image>
+            <view class="menu-item-text">
+              <text>{{item.title}}</text>
+            </view>
+          </view>
+          <view class='menu-item-right'>
+            <view class="menu-item-text-small">
+              <text>{{item.content}}</text>
+            </view>
+            <image class="menu-item-img-right" src="/images/profile/youjiantou.png"></image>
+          </view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+
+</view>

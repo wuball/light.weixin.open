@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="page-section">
+    <view class="weui-cells weui-cells_after-title cells_nobg">
+      <block wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+        <view class="weui-cell weui-cell_input cell_block" data-id='{{item.id}}' bindtap='edit' bindlongpress='showmenu'>
+          <view class="cell_title" style='justify-content:space-between;display:flex;'>
+            <text>{{item.nickname}}</text>
+            <text>{{item.phoneNumber}}</text>
+          </view>
+          <view class="cell_content">
+            <text>{{item.houseNumber}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+    <view class="btn-area">
+      <navigator url="edit/edit">
+        <button type="primary">新增</button>
+      </navigator>
+    </view>
+  </view>
+</view>
